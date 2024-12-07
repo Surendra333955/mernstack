@@ -1,0 +1,58 @@
+.add-customer {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .home-container {
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-flat-design-crm-infographic_23-2149383346.jpg?size=626&ext=jpg'); /* Specify the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .add-customer h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-customer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-customer input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-customer input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .add-customer button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-customer button:hover {
+    background-color: #0056b3;
+  }
+  

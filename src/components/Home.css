@@ -1,0 +1,114 @@
+  /* Container for the whole Home component with a background image */
+.home-container {
+  padding: 20px;
+   /* Specify the path to your image */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  font-family: 'Arial', sans-serif;
+}
+
+  /* Header styles */
+  h1 {
+    text-align: center;
+    color: #1a73e8;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Section titles */
+  h2 {
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #1a73e8;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #1a73e8;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td {
+    color: #555;
+  }
+  
+  /* Alternating row colors */
+  table tbody tr:nth-child(even) {
+    background-color: #f7f9fc;
+  }
+  
+  /* Hover effect for table rows */
+  table tbody tr:hover {
+    background-color: #eaf3ff;
+    cursor: pointer;
+  }
+  
+  /* Recent activities list styling */
+  .recent-activities ul, .upcoming-tasks ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-activities li, .upcoming-tasks li {
+    background-color: #fff;
+    border-left: 4px solid #1a73e8;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .recent-activities li:hover, .upcoming-tasks li:hover {
+    background-color: #eaf3ff;
+  }
+  
+  /* Section background colors */
+  .client-overview, .recent-activities, .upcoming-tasks {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for buttons, if added later */
+  button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #135ab5;
+  }
+  
+  

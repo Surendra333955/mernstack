@@ -1,0 +1,51 @@
+.lead-list {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .home-container {
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-vector/hand-drawn-flat-design-crm-infographic_23-2149383346.jpg?size=626&ext=jpg'); /* Specify the path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .lead-list h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lead-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lead-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lead-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .lead-list li span {
+    font-weight: bold;
+  }
+  
+  .lead-list li:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
